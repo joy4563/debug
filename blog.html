@@ -11,7 +11,7 @@
   <body>
     <section class="container mx-auto max-w-4xl">
       <div class="bg-cyan-400 px-12 py-8 rounded-2xl my-7">
-        <h2 class="mb-4 text-3xl font-bold">
+        <h2 class="mb-8 text-3xl font-bold">
           1. What is the difference between map, forEach , filter and find?
         </h2>
         <p class="text-2xl text-justify">
@@ -24,6 +24,67 @@
         </p>
       </div>
 
+      <div class="bg-cyan-400 px-12 py-8 rounded-2xl my-7">
+        <h2 class="mb-8 text-3xl font-bold">
+          2. What is the difference between Local Storage, Session Storage and
+          Cookies?
+        </h2>
+        <p class="text-2xl text-justify">
+          It is a web storage method that helps us store data on the client’s
+          computer in the form of key/value pairs in a web browser. The data is
+          stored in local storage for a lifetime unless the user manually
+          deletes it from the browser. It does not expire even when the user
+          closes the window or tab. Instead, the data remains in the browser
+          until and unless the browser's memory is cleared.<br />
+          <br />
+          It is very similar to the local storage. Still, the main difference
+          lies in the lifespan as it persists in the browser until its current
+          tab is on. Once you close the tab or terminate it, the data on session
+          storage also gets lost. <br />
+          <br />
+          A cookie is a small piece of data that is stored on the user's
+          computer. Cookies are used to store information about the user such as
+          their name, password, and preferences. Cookies are created using the
+          document.cookie property. This property is used to set, get, and
+          delete cookies.
+        </p>
+      </div>
+      <div class="bg-cyan-400 px-12 py-8 rounded-2xl my-7">
+        <h2 class="mb-8 text-3xl font-bold">
+          3. What is Event loop and how it is work?
+        </h2>
+        <p class="text-2xl text-justify">
+          The event loop is a process that waits for the Call Stack to be clear
+          before pushing callbacks from the Task Queue to the Call Stack. Once
+          the Stack is clear, the event loop triggers and checks the Task Queue
+          for available callbacks. If there are any, it pushes it to the Call
+          Stack, waits for the Call Stack to be clear again, and repeats the
+          same process.
+        </p>
+      </div>
+      <div class="bg-cyan-400 px-12 py-8 rounded-2xl my-7">
+        <h2 class="mb-8 text-3xl font-bold">
+          4. What is the Main Task of quizTimer function?
+        </h2>
+        <p class="text-2xl text-justify">
+          The quizTimer function works when we press the "Start Quiz" button. It
+          just keep tracking of the quiz time. It continues its countdown untill
+          we click on "Submit Quiz" button. But after 60 sec its change its
+          color per second. It gives us a warning that our fix 60 sec is over.
+        </p>
+      </div>
+      <div class="bg-cyan-400 px-12 py-8 rounded-2xl my-7">
+        <h2 class="mb-8 text-3xl font-bold">
+          5. What is the Main Task of chooseQuiz function?
+        </h2>
+        <p class="text-2xl text-justify">
+          Storing the selected answer of the quiz questions.In chooseQuiz
+          function there are two parameters, index and givenAns. It helps us to
+          figure out which answers to which questions. If the answer is whether
+          wrong or write, it called displayAnswers function to display the
+          correct answers.
+        </p>
+      </div>
     </section>
   </body>
 </html>
